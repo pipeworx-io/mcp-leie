@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-leie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "HHS OIG List of Excluded Individuals/Entities (LEIE) — provider exclusion",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ad218881f600014fc7c0adea5be28e89cfb7536caa56f7772c8a1b400de5885d",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
